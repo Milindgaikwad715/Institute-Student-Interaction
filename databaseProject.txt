@@ -1,0 +1,32 @@
+create table userinfo
+(
+ srno varchar2(4),
+ pnrno varchar2(12),
+ name varchar2(30),
+ username varchar2(15),
+ password varchar2(20),
+ email varchar2(30),
+ course varchar2(15),
+ gender varchar2(10),
+ phone varchar2(13),
+ address varchar2(50)
+);
+
+
+create table upload
+( 
+ srno number(4),
+ filePath varchar2(300),
+ fileName varchar2(100),
+ fileDetail varchar2(350),
+ datedb varchar2(50)
+);
+
+
+
+
+create table notice
+(
+ message varchar2(500),
+ datedb varchar2(50)
+);
